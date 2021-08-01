@@ -39,27 +39,25 @@ header {
     left: 60px;
 }
 
-#hamburguesa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #F4F8FA;
-    font-family: 'Play', sans-serif;
-    width: 150px;
-    font-size: 1.5rem;
-    visibility: collapse;
-}
-
-#carrito2 {
+#logo2 {
     width: 2rem;
     height: 2rem;
+    top: 18px;
+    right: 60px;
+    position: absolute;
 }
 
 @media (max-width: 700px) {
     #menu {
         visibility: visible;
     }
-    header nav li {
+    header {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    #logo2 {
         visibility: hidden;
     }
 }
