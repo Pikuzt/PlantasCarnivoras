@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <title>Carniplantas</title>
 
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/main.js">
@@ -16,16 +19,25 @@
 
     <header>
         <nav>
-            <li>
+            <li id="lista">
                 <ul>Login</ul>
                 <ul>Nosotros</ul>
                 <ul>Servicio</ul>
                 <ul>Contacto</ul>
-                <img src="" alt="">
-                <img src="" alt="">
+                <ul><img id="carrito" src="/img/bienes.png" alt=""></ul>
+                <ul><img id="logo" src="/img/helecho.png" alt=""></ul>
             </li>
         </nav>
     </header>
+    <img id="menu" src="/img/menu.png" alt="" onclick="menuHambuerguesa">
+
+    <div id="hamburguesa">
+        <span>Login</span>
+        <span>Nosotros</span>
+        <span>Servicios</span>
+        <span>Contacto</span>
+        <span><img id="carrito2" src="/img/bienes.png" alt=""></span>
+    </div>
 
 </body>
 
