@@ -52,8 +52,8 @@ header {
     #menu {
         visibility: visible;
     }
-    header {
-        display: none;
+    #lista {
+        visibility: hidden;
     }
 }
 
