@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-<<<<<<< HEAD
+
     background-color: aqua;
 }
 
@@ -64,9 +64,9 @@ header {
         visibility: hidden;
     }
 }
-=======
+
     
-}
+
 .banner{
     position: relative;
     display: inline-block;
@@ -107,4 +107,3 @@ header {
 }
 
 
->>>>>>> DEV_JC
