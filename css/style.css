@@ -3,6 +3,23 @@ body{
     margin: 0;
     
 }
+
+.header-conteiner{
+    display: flex;    
+    justify-content: center;
+    background-color: black;
+}
+
+.item{
+    order: 2;
+
+}
+
+.menu ul li {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
 .banner{
     position: relative;
     display: inline-block;
