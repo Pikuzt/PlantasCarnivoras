@@ -34,6 +34,10 @@
         overflow: hidden;
     }
     
+    footer {
+        background-color: #28480e;
+    }
+    
     footer nav li {
         display: flex;
         flex-direction: row;
@@ -114,6 +118,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        color: #F4F8FA;
+        font-family: 'Play', sans-serif;
     }
     
     .text_img,
@@ -127,6 +133,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        text-transform: uppercase;
     }
     
     .text_c2 {
