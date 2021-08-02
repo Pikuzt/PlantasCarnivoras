@@ -47,10 +47,22 @@
         width: 3rem;
         height: 3rem;
     }
-    
+    .header_menu{
+        background-color: #28480E;
+        height: 80px;
+        
+    }
+
+    .menu_nav{
+            display:none;
+        }
+
+
     .aparecer {
         visibility: visible;
     }
+
+ 
     
     #menu {
         visibility: hidden;
@@ -147,6 +159,9 @@
         #menu {
             visibility: visible;
         }
+        .lista{
+            display: none;
+        }
         #lista {
             display: flex;
             flex-direction: column;
@@ -167,5 +182,9 @@
     @media (min-width: 700px) {
         #logo2 {
             visibility: hidden;
+        }
+        
+        .menu_nav{
+            display: block;
         }
     }
