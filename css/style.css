@@ -67,6 +67,8 @@ header {
         flex-direction: column;
         position: relative;
         top: 50px;
+        height: 80px;
+        visibility: hidden;
     }
     header nav li {
         display: none;
