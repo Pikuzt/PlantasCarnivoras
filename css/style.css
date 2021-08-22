@@ -8,7 +8,7 @@
     
     nav {
         background-color: #28480E;
-        height: 80px;
+        height: 81px;
         width: 100%;
     }
     
@@ -76,51 +76,32 @@
         width: 100%;
         background: #d3ba9d;
     }
-    /*section {
-    /*background: #d3ba9d;
-    background-position: center center;
-    height: calc(100vh-80px);
-}*/
+   
 
 /* seccion de banner*/
 
 .banner{
     position: relative;
-    display: inline-block;
+    display: inline;
     text-align: center;
+    width: 100;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
     }
 
-    .text_img{
-        background-color: black;  
-        opacity: .6;
-        width: 100%;    
-        text-align: center;
-        color: white;
-        font-size: 3rem;    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+.banner img{
+max-width: 100%;
+width: 1000000px;
+height: auto;
+}
 
-    .text_img ,img{
-        width: 100%;
-        height: 100%;
-    }
     
-    .text_c {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+
     
-    .text_c2{
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+    
+    
     
     @media (max-width: 952px) {
         .enlace {
