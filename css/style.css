@@ -10,6 +10,7 @@
         background-color: #28480E;
         height: 81px;
         width: 100%;
+        z-index: 3;
     }
     
     .enlace {
@@ -77,6 +78,7 @@
         background: #d3ba9d;
         margin-top: -4px;
     }
+<<<<<<< Updated upstream
    
 
 /* seccion de banner*/
@@ -133,9 +135,57 @@ height: auto;
 }
 
 
+=======
+    /* seccion de banner*/
     
+    .banner {
+        position: relative;
+        display: inline;
+        text-align: center;
+        width: 100;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        z-index: -1;
+    }
     
+    .banner img {
+        max-width: 100%;
+        width: 1000000px;
+        height: auto;
+    }
     
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+>>>>>>> Stashed changes
+    
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 5vw;
+        width: 50%;
+    }
+    
+    .font {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+    
+    .text_img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
     
     @media (max-width: 952px) {
         .enlace {
