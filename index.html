@@ -10,87 +10,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
     <title>Carniplantas</title>
 
+    <script src="https://kit.fontawesome.com/cb9b186a3d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/main.js">
     </script>
 </head>
 
-<style>
-    .header_menu{
-        background-color: #28480E;
-        height: 80px;
-        
-    }
-
-    .menu_nav{
-            display:block;
-        }
-
-   
-
-
-
-</style>
 
 
 
 <body>
-    <header >
-        <div class="header_menu">
-            <nav class="menu_nav" >
-                <li id="lista">
-                    <ul>Login</ul>
-                    <ul>Nosotros</ul>
-                    <ul>Servicio</ul>
-                    <ul>Contacto</ul>
-                    <ul><img id="carrito" src="/img/bienes.png" alt=""></ul>
-                    <ul><img id="logo" src="/img/helecho.png" alt=""></ul>
-                </li>
-            </nav>
-        </div>
-        
-    </header>
 
-    <main>
-        <img id="menu" class="icon_menu" src="/img/menu.png" alt="" onclick="Menu()">
-        <img id="logo2" src="/img/helecho.png" alt="">
-
-        <section class="banner">
-            <div class="text_img">
-                <div class="text_c">CarniPlantas</div>
-                <div class="text_c2">Plantas increibles</div>
-            </div>
-            <img src="./img/download.png" alt="" srcset="">
-        </section>
-        <section id="contenido">
-            <div>
-                <img src="/img/346246.png" alt="">
-                <h1>Historia</h1>
-                <p>Lorem ipsum dolor sit...</p>
-            </div>
-            <div>
-                <img src="/img/dos-hombres-uno-al-lado-del-otro-en-un-abrazo-con-los-brazos-levantados.png" alt="">
-                <h1>Nosotros</h1>
-                <p>Lorem ipsum dolor sit...</p>
-            </div>
-            <div>
-                <img src="/img/1463110.png" alt="">
-                <h1>Servicios</h1>
-                <p>Lorem ipsum dolor sit...</p>
-            </div>
-        </section>
-
-        <footer>
-            <nav>
-                <li>
-                    <ul><img src="/img/facebook.png" alt=""></ul>
-                    <ul><img src="/img/gorjeo.png" alt=""></ul>
-                    <ul><img src="/img/instagram.png" alt=""></ul>
-                </li>
-            </nav>
-        </footer>
-    </main>
-
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+        <a href="/" class="enlace"><img src="/img/helecho.png" alt="" class="logo"></a>
+        <a href="/" class="enlace"><img src="/img/bienes.png" alt="" class="carrito"></a>
+        <ul>
+            <li><a class="active" href="">Inicio</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Servicio</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+    <section></section>
 
 </body>
 

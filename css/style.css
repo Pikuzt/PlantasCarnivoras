@@ -1,193 +1,119 @@
-    body {
-        padding: 0;
-        margin: 0;
-        background-color: #decbb5;
-        overflow: hidden;
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #28480E;
+    height: 80px;
+    width: 100%;
+}
+
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.carrito {
+    height: 40px;
+    margin-left: 70px;
+}
+
+
+/*.menu {
+    height: 40px;
+}*/
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active,
+li a:hover {
+    background: #d3ba9d;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/*section {
+    /*background: #d3ba9d;
+    background-position: center center;
+    height: calc(100vh-80px);
+}*/
+
+@media (max-width: 952px) {
+    .enlace {
+        padding-left: 20px;
     }
-    
-    main {
-        width: 100vw;
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
         height: 100vh;
-    }
-    
-    body header nav li img {
-        width: 2rem;
-        height: 2rem;
-    }
-    
-    header nav li {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-        margin-right: 15px;
-    }
-    
-    header nav li ul {
-        color: #F4F8FA;
-        font-family: 'Play', sans-serif;
-        font-size: larger;
-    }
-    
-    header {
-        background-color: #28480e;
-        overflow: hidden;
-    }
-    
-    footer {
-        background-color: #28480e;
-    }
-    
-    footer nav li {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    footer nav li ul img {
-        width: 3rem;
-        height: 3rem;
-    }
-    .header_menu{
-        background-color: #28480E;
-        height: 80px;
-        
-    }
-
-    .menu_nav{
-            display:none;
-        }   
-
-    .aparecer {
-        visibility: visible;
-    } 
-    
-    #menu {
-        visibility: hidden;
-        width: 3rem;
-        height: 3rem;
-        position: absolute;
-        top: 18px;
-        left: 10px;
-    }
-    
-    #logo2 {
-        width: 3rem;
-        height: 3rem;
-        top: 18px;
-        right: 10px;
-        position: absolute;
-    }
-    
-    #carrito {
-        width: 3rem;
-        height: 3rem;
-    }
-    
-    #logo {
-        width: 3rem;
-        height: 3rem;
-    }
-    
-    #contenido {
-        color: black;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #contenido div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        width: 30vw;
-        border: 1px solid cadetblue;
-        border-radius: 8px;
-        background-color: #F4F8FA;
-    }
-    
-    .banner {
-        position: relative;
-        display: inline-block;
+        background: black;
+        top: 80px;
+        left: -100%;
         text-align: center;
-        width: 100vw;
-        height: 30vh;
+        transition: all .5s;
     }
-    
-    .text_img {
-        background-color: black;
-        opacity: .6;
-        width: 100%;
-        text-align: center;
-        color: white;
-        font-size: 3rem;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #F4F8FA;
-        font-family: 'Play', sans-serif;
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
     }
-    
-    .text_img,
-    img {
-        width: 100%;
-        height: 100%;
+    nav ul li a {
+        font-size: 20px;
     }
-    
-    .text_c {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-transform: uppercase;
+    li a:hover,
+    li a.active {
+        background: none;
+        color: #28480E;
     }
-    
-    .text_c2 {
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    #check:checked~ul {
+        left: 0;
     }
-    
-    @media (max-width: 700px) {
-        #menu {
-            visibility: visible;
-        }
-        .lista{
-            display: none;
-        }
-        .header_menu{
-            display: block;
-            height: auto;
-        }
-
-        #lista {
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            top: 50px;
-            display: none;
-        }
-        header nav li {
-            display: none;
-        }
-        #logo {
-            display: none;
-        }
-        .text_img {
-            font-size: 2rem;
-        }
-    }
-    
-    @media (min-width: 700px) {
-        #logo2 {
-            visibility: hidden;
-        }
-        
-        .menu_nav{
-            display: block;
-        }
-    }
+}
