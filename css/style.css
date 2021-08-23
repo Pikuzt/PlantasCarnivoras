@@ -140,15 +140,14 @@
     .imgcontenido {
         height: 320px;
     }
-
+    
     #contenido {
         width: 100%;
         height: auto;
         display: flex;
-        
     }
-
-    .item-c{
+    
+    .item-c {
         width: 30%;
         height: auto;
         background-color: white;
@@ -157,6 +156,7 @@
         margin: 1rem;
         border: solid #28480E 1px;
     }
+    
     .item-c img {
         max-width: 50%;
         width: 25%;
@@ -179,10 +179,8 @@
         .checkbtn {
             display: block;
         }
-
-        .item-c{
+        .item-c {
             width: 100%;
-            
         }
         ul {
             position: fixed;
