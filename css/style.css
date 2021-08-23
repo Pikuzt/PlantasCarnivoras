@@ -167,6 +167,7 @@
         width: 100%;
         height: auto;
         background-color: #28480E;
+        
     }
     .coten_footer {
         display: flex;
@@ -211,9 +212,8 @@
             width: 100%;
         }
 
-        .item_f{
-            width: 100%;
-            
+        .item_f:nth-child(2){
+            width: 100% ;
         }
         ul {
             position: fixed;
