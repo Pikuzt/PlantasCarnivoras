@@ -162,34 +162,33 @@
         width: 25%;
         height: auto;
     }
-
-    footer{
+    
+    footer {
         width: 100%;
         height: auto;
         background-color: #28480E;
     }
+    
     .coten_footer {
         display: flex;
         width: 100%;
         height: auto;
-        
-        
     }
-
-    .item_f{
+    
+    .item_f {
         width: 50%;
         color: white;
         padding: 1rem;
     }
-    .item_f i{
+    
+    .item_f i {
         margin: 1px;
         font-size: 1.2rem;
     }
-    .item_f:nth-child(2){
+    
+    .item_f:nth-child(2) {
         text-align: right;
     }
-
-    
     
     @media (max-width: 952px) {
         .enlace {
@@ -210,10 +209,8 @@
         .item-c {
             width: 100%;
         }
-
-        .item_f{
+        .item_f {
             width: 100%;
-            
         }
         ul {
             position: fixed;
