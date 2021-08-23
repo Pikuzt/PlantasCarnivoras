@@ -4,6 +4,7 @@
         text-decoration: none;
         list-style: none;
         box-sizing: border-box;
+        font-family: 'Play', sans-serif;
     }
     
     nav {
@@ -73,10 +74,18 @@
     #contenido {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
         height: 100vh;
         width: 100%;
         background: #d3ba9d;
         margin-top: -4px;
+    }
+    
+    #contenido div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     /* seccion de banner*/
     
@@ -128,12 +137,19 @@
         z-index: 1;
     }
     
+    .imgcontenido {
+        height: 320px;
+    }
+    
     @media (max-width: 952px) {
         .enlace {
             padding-left: 20px;
         }
         nav ul li a {
             font-size: 16px;
+        }
+        .imgcontenido {
+            height: 250px;
         }
     }
     
@@ -167,5 +183,12 @@
         }
         #check:checked~ul {
             left: 0;
+        }
+        .imgcontenido {
+            height: 150px;
+        }
+        #contenido div {
+            display: flex;
+            flex-direction: row;
         }
     }
