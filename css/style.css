@@ -140,6 +140,28 @@
     .imgcontenido {
         height: 320px;
     }
+
+    #contenido {
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+    }
+
+    .item-c{
+        width: 30%;
+        height: auto;
+        background-color: white;
+        border-radius: 15px;
+        padding: 1rem;
+        margin: 1rem;
+        border: solid #28480E 1px;
+    }
+    .item-c img {
+        max-width: 50%;
+        width: 25%;
+        height: auto;
+    }
     
     @media (max-width: 952px) {
         .enlace {
@@ -156,6 +178,11 @@
     @media (max-width: 858px) {
         .checkbtn {
             display: block;
+        }
+
+        .item-c{
+            width: 100%;
+            
         }
         ul {
             position: fixed;
